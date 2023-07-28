@@ -18,7 +18,9 @@ header {
   padding: 10px;
   text-align: center;
 }
-
+h1 {
+  font-size: 2rem;
+}
 main {
   display: grid;
   gap: 1rem;
@@ -55,4 +57,15 @@ footer {
   color: #fff;
   padding: 10px;
   text-align: center;
+}
+
+@media (max-width: 600px) {
+  .btn-holder {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 10px;
+  }
+  h1 {
+    font-size: 1rem;
+  }
 }
