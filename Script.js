@@ -3,7 +3,7 @@ let counter = 0;
 let value = document.querySelector("#value");
 let btns = document.querySelectorAll(".btn");
 
-// Foreach Statment  
+// Foreach Statment
 btns.forEach((btn, index) => {
   btn.onclick = () => {
     if (index === 0) {
